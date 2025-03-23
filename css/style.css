@@ -138,9 +138,13 @@
 }
 
 .banggia {
-    width: 100%;
+    width: 50%;
     text-align: center;
     margin: 20px auto;
+}
+
+.banggia img {
+    width: 100%;
 }
 
 .review {
