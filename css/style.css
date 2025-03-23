@@ -19,14 +19,14 @@
 
 .menu {
     display: block;
-    margin: 40px 40px;
-    font-size: 25px;
+    margin: 1vmax 1vmax;
+    font-size: 1.5vmax;
 }
 
 .title a {
     display: grid;
-    width: 150px;
-    height: 75px;
+    width: 15vmax;
+    height: 6vmax;
     margin: 40px 5vmax;
     border: 2px solid white;
     text-align: center;
@@ -34,7 +34,7 @@
     color: white;
     place-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 1.5vmax;
     padding: 10px 20px;
     text-decoration: none;
 
@@ -56,7 +56,7 @@
     position: relative;
     width: 100%;
     /* Chiếm toàn bộ chiều rộng */
-    height: 900px;
+    height: 50vmax;
     /* Chiều cao tùy chỉnh */
     overflow: hidden;
     /* Ẩn phần hình ảnh ngoài vùng chứa */
@@ -99,7 +99,7 @@
 .content h3 {
     text-align: center;
     margin: 40px 0px;
-    font-size: 40px;
+    font-size: 2vmax;
     color: #193713;
 
 }
@@ -120,15 +120,15 @@
 
 .content a {
     display: grid;
-    width: 150px;
-    height: 75px;
+    width: 15vmax;
+    height: 6vmax;
     margin: 60px auto;
     border: 2px solid black;
     background-color: #1b700a;
     color: white;
     place-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 1.5vmax;
     padding: 10px 20px;
     text-decoration: none;
 }
@@ -155,13 +155,13 @@
 .review h2 {
     text-align: center;
     color: #193713;
-    font-size: 40px;
+    font-size: 2vmax;
     margin: 30px 0px;
 }
 
 .review p {
     text-align: center;
-    font-size: 25px;
+    font-size: 1vmax;
     font-style: italic;
     color: rgb(44, 44, 44);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -175,21 +175,21 @@
 
 .customer h2 {
     color: #193713;
-    font-size: 40px;
+    font-size: 2vmax;
     margin-bottom: 50px;
 }
 
 .imagecus {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 1vmax;
     place-items: center;
-    margin: 20px 180px;
+    margin: 1vmax 18vmax;
 }
 
 .imagecus img {
     width: 100%;
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 0.3vmax 0.3vmax 0.3vmax gray;
 }
 
 .pagination {
@@ -201,8 +201,8 @@
     width: auto;
     color: white;
     height: auto;
-    font-size: 25px;
-    padding: 40px 40px;
+    font-size: 1vmax;
+    padding: 2vmax 2vmax;
 }
 
 .pagination img {
@@ -212,7 +212,7 @@
 
 .pagination span {
     display: block;
-    margin: 0px 5vmax;
+    margin: 0px 3vmax;
 
 }
 
@@ -222,15 +222,15 @@
 
 .pagination span form input[type="text"] {
     padding: 10px;
-    width: 178px;
+    width: 17vmax;
     margin-top: 20px;
-    margin-bottom: 5px;
-    height: 30px;
-    font-size: 20px;
+    margin-bottom: 10px;
+    height: 1.5vmax;
+    font-size: 1vmax;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pagination span form input[type="submit"] {
-    width: 200px;
-    font-size: 30px;
+    width: 10vmax;
+    font-size: 1vmax;
 }
